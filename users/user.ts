@@ -1,7 +1,7 @@
 import { api, APIError } from "encore.dev/api";
 import { SQLDatabase } from "encore.dev/storage/sqldb";
 
-const db = new SQLDatabase("url", { migrations: "./migrations" });
+const db = new SQLDatabase("userv2", { migrations: "./migrations" });
 
 interface User {
   id: number;

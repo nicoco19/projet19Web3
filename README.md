@@ -1,23 +1,19 @@
-# Empty Encore TS Template
+# Projet web 3 - Groupe 19 - Encore.js 
 
-## Developing locally
+## Comment lancer le projet
 
-When you have [installed Encore](https://encore.dev/docs/install), you can create a new Encore application and clone this example with this command.
+Avant de pouvoir lancer le projet, il est nécessaire d' [installer Encore](https://encore.dev/docs/install) et [installer Docker](https://docs.docker.com/engine/install/)
 
-```bash
-encore app create my-app-name --example=ts/empty
-```
-
-## Running locally
+## Lancer le projet
 ```bash
 encore run
 ```
 
-While `encore run` is running, open <http://localhost:9400/> to view Encore's [local developer dashboard](https://encore.dev/docs/observability/dev-dash).
+Une fois `encore run` lancé, vous pouvez ouvrir <http://localhost:9400/> pour accéder à la page de test. Pour plus de détails, consultez le [local developer dashboard](https://encore.dev/docs/observability/dev-dash).
 
-## Deployment
+## Déploiement
 
-Deploy your application to a staging environment in Encore's free development cloud:
+Si vous voulez déployer l'application :
 
 ```bash
 git add -A .
@@ -25,14 +21,5 @@ git commit -m 'Commit message'
 git push encore
 ```
 
-Then head over to the [Cloud Dashboard](https://app.encore.dev) to monitor your deployment and find your production URL.
+Pour consulter les informations de déploiement et effectuer l'opération sur un cloud, rendez-vous sur le [Cloud Dashboard](https://app.encore.dev).
 
-From there you can also connect your own AWS or GCP account to use for deployment.
-
-Now off you go into the clouds!
-
-## Testing
-
-```bash
-encore test
-```

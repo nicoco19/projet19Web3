@@ -2,7 +2,7 @@ import { api, APIError } from "encore.dev/api";
 import { SQLDatabase } from "encore.dev/storage/sqldb";
 import { getUserById } from "../users/user"
 
-const db = new SQLDatabase("articles", { migrations: "./migrations" });
+const db = new SQLDatabase("articlesv2", { migrations: "./migrations" });
 
 interface Article {
   id: number,
